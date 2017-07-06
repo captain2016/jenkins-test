@@ -204,6 +204,7 @@ public class StudentController {
     logger.info("getAllStudents()");
     PrintWriter writer = null;
     List<Student> studentList = null;
+    List<Student> studentList2 = null;
     try {
       writer = response.getWriter();
       // Fetch students
