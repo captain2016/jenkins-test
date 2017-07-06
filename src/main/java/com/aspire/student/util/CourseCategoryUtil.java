@@ -25,6 +25,7 @@ public class CourseCategoryUtil {
   public static void loadCourseCategoryList(CourseCategoryService courseCategoryService,
       Map<String, Object> map) {
     List<CourseCategory> courseCategoryList = null;
+     List<CourseCategory> courseCategoryList200 = null;
     try {
       courseCategoryList = courseCategoryService.getCourseCategories();
     } catch (Exception e) {
