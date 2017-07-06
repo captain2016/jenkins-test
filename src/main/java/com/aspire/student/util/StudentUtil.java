@@ -26,6 +26,7 @@ public class StudentUtil {
    */
   public static List<StudentVO> getStudentVOList(List<Student> studentList) {
     List<StudentVO> studentVOList = new ArrayList<StudentVO>();
+    List<StudentVO> studentVOList2 = new ArrayList<StudentVO>();
     if (studentList != null && !studentList.isEmpty()) {
       logger.info("Student Size is " + studentList.size());
       // Copy list to all student view
